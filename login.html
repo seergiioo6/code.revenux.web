@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RevenuX - Login</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom color for RevenuX */
+        .text-revenux {
+            color: #4F46E5; /* Replace with your desired color */
+        }
+        .bg-revenux {
+            background-color: #4F46E5;
+        }
+        .bg-revenux-light {
+            background-color: #6366F1;
+        }
+        .bg-revenux-dark {
+            background-color: #3730A3;
+        }
+        .hover\:bg-revenux:hover {
+            background-color: #4F46E5;
+        }
+        .hover\:text-revenux:hover {
+            color: #4F46E5;
+        }
+    </style>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+  <!-- Login Page -->
+  <section class="flex items-center justify-center min-h-screen">
+    <div class="bg-white shadow-md rounded-lg p-8 max-w-md w-full">
+      <h2 class="text-3xl font-extrabold text-gray-900 text-center mb-6">Login to <span class="text-revenux">RevenuX</span></h2>
+
+      <form action="#" method="POST" class="space-y-6">
+        <!-- Email -->
+        <div>
+          <label for="email" class="block text-sm font-medium text-gray-700">Email address</label>
+          <input id="email" name="email" type="email" autocomplete="email" required
+                 class="mt-1 block w-full px-4 py-3 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-revenux focus:border-revenux sm:text-sm">
+        </div>
+
+        <!-- Password -->
+        <div>
+          <label for="password" class="block text-sm font-medium text-gray-700">Password</label>
+          <input id="password" name="password" type="password" autocomplete="current-password" required
+                 class="mt-1 block w-full px-4 py-3 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-revenux focus:border-revenux sm:text-sm">
+        </div>
+
+        <!-- Submit Button -->
+        <div>
+          <button type="submit"
+                  class="w-full flex justify-center px-4 py-3 bg-revenux text-white rounded-md font-semibold shadow hover:bg-revenux-dark focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-revenux">
+            Sign In
+          </button>
+        </div>
+      </form>
+
+      <!-- Forgot Password & Signup Links -->
+      <div class="mt-6 text-center">
+        <a href="#" class="text-revenux hover:text-revenux-dark text-sm">Forgot your password?</a>
+      </div>
+      <div class="mt-2 text-center">
+        <p class="text-sm text-gray-600">Don't have an account?
+          <a href="#" class="text-revenux hover:text-revenux-dark font-semibold">Sign up</a>
+        </p>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>

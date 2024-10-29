@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RevenuX - Pricing</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom color for RevenuX */
+        .text-revenux {
+            color: #4F46E5; /* Replace with your desired color */
+        }
+        .bg-revenux {
+            background-color: #4F46E5;
+        }
+        .bg-revenux-light {
+            background-color: #6366F1;
+        }
+        .bg-revenux-dark {
+            background-color: #3730A3;
+        }
+        .hover\:bg-revenux:hover {
+            background-color: #4F46E5;
+        }
+        .hover\:text-revenux:hover {
+            color: #4F46E5;
+        }
+    </style>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+<!-- Header Section -->
+<header class="bg-white shadow">
+    <div class="container mx-auto px-6 py-4">
+        <div class="flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-revenux">RevenuX</h1> <!-- Primary color used here -->
+            <nav>
+                <a href="#" class="text-gray-600 hover:text-revenux mx-4">Features</a>
+                <a href="#" class="text-gray-600 hover:text-revenux mx-4">Pricing</a>
+                <a href="#" class="text-gray-600 hover:text-revenux mx-4">Contact</a>
+                <a href="#" class="text-gray-600 hover:text-revenux mx-4">Login</a>
+            </nav>
+        </div>
+    </div>
+</header>
+
+  <!-- Pricing Page -->
+  <section class="container mx-auto px-6 py-16 text-center">
+    <h2 class="text-4xl font-extrabold text-gray-900">Choose Your Plan</h2>
+    <p class="mt-4 text-lg text-gray-600 max-w-xl mx-auto">
+      Flexible pricing for publishers. Choose a revshare model or a fixed monthly fee that suits your business needs. Contact us if you're a network for customized pricing options.
+    </p>
+
+    <!-- Pricing Cards -->
+    <div class="mt-12 grid grid-cols-1 md:grid-cols-2 gap-8"> <!-- Adjusted to 2 columns -->
+
+      <!-- RevShare Plan -->
+      <div class="bg-white p-8 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+        <h3 class="text-2xl font-bold text-gray-900">RevShare</h3>
+        <p class="mt-4 text-gray-600">
+          Pay only a small percentage of the improvement in your revenue. If your revenue grows, you pay 5% of that growth.
+        </p>
+        <div class="mt-6">
+          <span class="text-4xl font-extrabold text-gray-900">5%</span>
+          <span class="text-lg text-gray-600">of improved revenue</span>
+        </div>
+        <a href="#" class="mt-8 inline-block px-8 py-4 bg-revenux text-white rounded-md font-semibold hover:bg-revenux-dark">
+          Get Started
+        </a>
+      </div>
+
+      <!-- Fixed Monthly Plan -->
+      <div class="bg-white p-8 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+        <h3 class="text-2xl font-bold text-gray-900">Fixed Monthly Fee</h3>
+        <p class="mt-4 text-gray-600">
+          A predictable monthly fee based on the size of your website and traffic. Best for those who want stable, fixed costs.
+        </p>
+        <div class="mt-6">
+          <span class="text-4xl font-extrabold text-gray-900">$500</span>
+          <span class="text-lg text-gray-600">/month</span>
+        </div>
+        <a href="#" class="mt-8 inline-block px-8 py-4 bg-revenux text-white rounded-md font-semibold hover:bg-revenux-dark">
+          Get Started
+        </a>
+      </div>
+
+    </div>
+
+    <!-- Network Contact -->
+    <div class="mt-12 bg-gray-100 p-8 rounded-lg shadow-lg">
+      <h3 class="text-2xl font-bold text-gray-900">Are you a network?</h3>
+      <p class="mt-4 text-gray-600">
+        Contact us to discuss custom pricing options tailored to your network's needs. Our team will work with you to create a solution that maximizes your revenue potential.
+      </p>
+      <a href="mailto:sales@revenux.com" class="mt-6 inline-block px-8 py-4 bg-revenux text-white rounded-md font-semibold hover:bg-revenux-dark">
+        Contact Us
+      </a>
+    </div>
+  </section>
+
+</body>
+</html>
